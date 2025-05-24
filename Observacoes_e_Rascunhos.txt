@@ -1,0 +1,19 @@
+Pelo plot do colunas.py, dá pra observar 3 regiões pra analisar e plotar:
+
+dados 0 a 1000: Frequency = 0,005n + 2  (GHz)
+		        Length of Substrate = 59 mm
+		        Width of Substrate = 76 mm
+		        Area of Slots = 58.2656 mm²
+		
+dados 1000 a 2000: Frequency = 0,005(n-1000) + 2  (GHz)
+		           Length of Substrate = 65 mm
+		           Width of Substrate = 65 mm
+		           Area of Slots = 58.2656 mm²
+
+dados 1000 a 2000: Frequency = 0,005(n-1000) + 2  (GHz)
+		           Length of Substrate = 59 mm
+		           Width of Substrate = 76 mm
+		           Area of Slots = 68.264 mm²
+
+
+Então, creio que a gente possa fazer 3 plots de frequência contra S11 e calcular os coeficientes		
