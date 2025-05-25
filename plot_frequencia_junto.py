@@ -26,7 +26,7 @@ print("c6:", c6)
 print("c7:", c7)
 print("c8:", c8)
 
-fig, ax = plt.subplots(1,3, figsize=(20, 5))
+"""fig, ax = plt.subplots(1,3, figsize=(20, 5))
 
 ax[0].scatter(c1[:1000], c8[:1000], s=1)
 ax[1].scatter(c1[1000:2000], c8[1000:2000], s=1)
@@ -46,6 +46,14 @@ ax[2].set_ylabel("S11 (dB)")
 
 ax[0].grid()
 ax[1].grid()
-ax[2].grid()
+ax[2].grid()"""
+
+plt.scatter(c1[:1000], c8[:1000])
+plt.scatter(c1[1000:2000], c8[1000:2000])
+plt.scatter(c1[2000:3000], c8[2000:3000])
+
+plt.legend(["Configuração 1", "Configuração 2", "Configuração 3"])
+
+plt.grid()
 
 plt.show()
